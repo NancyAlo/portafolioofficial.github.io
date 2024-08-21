@@ -273,3 +273,79 @@ menu {
     text-align: center;
 }
 
+@media screen and (max-width:1000px) {
+
+    .menu .navbar ul {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .header-text {
+        top: 40%;
+    }
+
+
+    .header-text h1 {
+       font-size: 4rem;
+       text-align: center center;
+
+    }
+
+    .group-services {
+        display: inline-flex;
+        justify-content: space-between;
+        
+    }
+
+    .service {
+        padding: 25px 15px;
+    
+    }
+
+    #section-2 {
+        width: 100%;
+    }
+
+    #section-2 img {
+        width: 100%;  /* Hace que la imagen ocupe el 100% del ancho del contenedor */
+        height: auto; /* Mantiene la proporción de la imagen */
+        object-fit: contain; /* Asegura que la imagen se ajuste dentro del contenedor sin recortarse */
+        display: block; /* Elimina espacio en blanco debajo de la imagen */
+        margin: 0 auto; /* Centra la imagen dentro de su contenedor */
+     }
+
+
+@media screen and (max-width: 370px){
+
+    .menu .navbar ul {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+    }
+
+    
+    .header-text h1 {
+        font-size: 2rem;
+        text-align: center center;
+        
+    }
+
+    #section-2 {
+        width: 100%;
+    }
+
+    #section-2 img {
+        width: 100%;  /* Hace que la imagen ocupe el 100% del ancho del contenedor */
+        height: auto; /* Mantiene la proporción de la imagen */
+        object-fit: contain; /* Asegura que la imagen se ajuste dentro del contenedor sin recortarse */
+        display: block; /* Elimina espacio en blanco debajo de la imagen */
+        margin: 0 auto; /* Centra la imagen dentro de su contenedor */
+     }
+
+}
+
+}
