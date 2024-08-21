@@ -84,6 +84,7 @@ video {
 
 
 menu {
+    cursor:pointer;
     display: none;
 }
 
