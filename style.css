@@ -38,7 +38,6 @@ video {
     align-items: flex-start;
 }
 
-
 .menu {
     position:absolute;
     top: 10px;
@@ -215,9 +214,26 @@ menu {
     text-align: center;
 }
 
+.btn-4 {
+    display: inline-block;
+    background-color:rgb(17, 29, 39);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px 35px;
+    border-radius:33px;
+    color:#f2eded;
+    transition: transform 0.5s ease;
+}
+
+.btn-4:hover{
+    background-color:#3d4e59;
+    transform: scale(1.3);
+}
+
+
 /* Estilo para la segunda sección */
 #section-2 {
-    background-image: url("imagenes/galax1.png"); /* Imagen de fondo */
+    background-image: url("imagenes/estrellas.jpg"); /* Imagen de fondo */
     background-size: cover; /* La imagen cubre toda la sección */
     background-position: center;
     background-repeat: no-repeat;
@@ -239,7 +255,6 @@ menu {
     font-family: 'Arial', sans-serif;
     
 }
-
 
 
 .imagen-clase {
@@ -272,6 +287,24 @@ menu {
     text-align: center;
 }
 
+
+.btn-3 {
+    display: inline-block;
+    background-color:rgb(17, 29, 39);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px 35px;
+    border-radius:33px;
+    color:#f2eded;
+    transition: transform 0.5s ease;
+}
+
+.btn-3:hover {
+    background-color: #3d4e59;
+    transform: scale(1.3);
+}
+
+
 @media screen and (max-width:1000px) {
 
     .menu .navbar ul {
@@ -303,6 +336,7 @@ menu {
         padding: 25px 15px;
     
     }
+    
 
     #section-2 {
         width: 100%;
@@ -317,6 +351,8 @@ menu {
      }
 
 
+
+     
 @media screen and (max-width: 370px){
 
     .menu .navbar ul {
