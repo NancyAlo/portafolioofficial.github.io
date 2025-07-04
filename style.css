@@ -266,8 +266,8 @@ menu {
 
 /* Ejemplo con un contenedor fijo */
 .imagen-contenedor {
-    width: 180px;
-    height: 100px;
+    width: 300px;
+    height: 200px;
     overflow: hidden;
     margin: 10px auto;
 }
